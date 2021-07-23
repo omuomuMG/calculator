@@ -25,7 +25,7 @@ class _CalculatorState extends State<Calculator> {
     return Container(
       child: RaisedButton(
         onPressed: () {
-          //Todo add function
+          // add func
           calculation(btnText);
         },
         child: Text(
